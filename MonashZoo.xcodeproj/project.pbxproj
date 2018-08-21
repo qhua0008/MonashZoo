@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7CFDA70F212C179C00CEA37D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFDA70E212C179C00CEA37D /* AppDelegate.swift */; };
+		7CFDA711212C179C00CEA37D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFDA710212C179C00CEA37D /* ViewController.swift */; };
+		7CFDA714212C179C00CEA37D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CFDA712212C179C00CEA37D /* Main.storyboard */; };
+		7CFDA717212C179C00CEA37D /* MonashZoo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7CFDA715212C179C00CEA37D /* MonashZoo.xcdatamodeld */; };
+		7CFDA719212C179E00CEA37D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CFDA718212C179E00CEA37D /* Assets.xcassets */; };
+		7CFDA71C212C179E00CEA37D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CFDA71A212C179E00CEA37D /* LaunchScreen.storyboard */; };
+		7CFDA727212C179F00CEA37D /* MonashZooTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFDA726212C179F00CEA37D /* MonashZooTests.swift */; };
+		7CFDA732212C179F00CEA37D /* MonashZooUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFDA731212C179F00CEA37D /* MonashZooUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7CFDA723212C179F00CEA37D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CFDA703212C179C00CEA37D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CFDA70A212C179C00CEA37D;
+			remoteInfo = MonashZoo;
+		};
+		7CFDA72E212C179F00CEA37D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CFDA703212C179C00CEA37D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CFDA70A212C179C00CEA37D;
+			remoteInfo = MonashZoo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7CFDA70B212C179C00CEA37D /* MonashZoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonashZoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CFDA70E212C179C00CEA37D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7CFDA710212C179C00CEA37D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7CFDA713212C179C00CEA37D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7CFDA716212C179C00CEA37D /* MonashZoo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MonashZoo.xcdatamodel; sourceTree = "<group>"; };
+		7CFDA718212C179E00CEA37D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CFDA71B212C179E00CEA37D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7CFDA71D212C179E00CEA37D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CFDA722212C179F00CEA37D /* MonashZooTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonashZooTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CFDA726212C179F00CEA37D /* MonashZooTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonashZooTests.swift; sourceTree = "<group>"; };
+		7CFDA728212C179F00CEA37D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CFDA72D212C179F00CEA37D /* MonashZooUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonashZooUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CFDA731212C179F00CEA37D /* MonashZooUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonashZooUITests.swift; sourceTree = "<group>"; };
+		7CFDA733212C179F00CEA37D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CFDA708212C179C00CEA37D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CFDA71F212C179F00CEA37D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CFDA72A212C179F00CEA37D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7CFDA702212C179C00CEA37D = {
+			isa = PBXGroup;
+			children = (
+				7CFDA70D212C179C00CEA37D /* MonashZoo */,
+				7CFDA725212C179F00CEA37D /* MonashZooTests */,
+				7CFDA730212C179F00CEA37D /* MonashZooUITests */,
+				7CFDA70C212C179C00CEA37D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7CFDA70C212C179C00CEA37D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CFDA70B212C179C00CEA37D /* MonashZoo.app */,
+				7CFDA722212C179F00CEA37D /* MonashZooTests.xctest */,
+				7CFDA72D212C179F00CEA37D /* MonashZooUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CFDA70D212C179C00CEA37D /* MonashZoo */ = {
+			isa = PBXGroup;
+			children = (
+				7CFDA70E212C179C00CEA37D /* AppDelegate.swift */,
+				7CFDA710212C179C00CEA37D /* ViewController.swift */,
+				7CFDA712212C179C00CEA37D /* Main.storyboard */,
+				7CFDA718212C179E00CEA37D /* Assets.xcassets */,
+				7CFDA71A212C179E00CEA37D /* LaunchScreen.storyboard */,
+				7CFDA71D212C179E00CEA37D /* Info.plist */,
+				7CFDA715212C179C00CEA37D /* MonashZoo.xcdatamodeld */,
+			);
+			path = MonashZoo;
+			sourceTree = "<group>";
+		};
+		7CFDA725212C179F00CEA37D /* MonashZooTests */ = {
+			isa = PBXGroup;
+			children = (
+				7CFDA726212C179F00CEA37D /* MonashZooTests.swift */,
+				7CFDA728212C179F00CEA37D /* Info.plist */,
+			);
+			path = MonashZooTests;
+			sourceTree = "<group>";
+		};
+		7CFDA730212C179F00CEA37D /* MonashZooUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7CFDA731212C179F00CEA37D /* MonashZooUITests.swift */,
+				7CFDA733212C179F00CEA37D /* Info.plist */,
+			);
+			path = MonashZooUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CFDA70A212C179C00CEA37D /* MonashZoo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CFDA736212C179F00CEA37D /* Build configuration list for PBXNativeTarget "MonashZoo" */;
+			buildPhases = (
+				7CFDA707212C179C00CEA37D /* Sources */,
+				7CFDA708212C179C00CEA37D /* Frameworks */,
+				7CFDA709212C179C00CEA37D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MonashZoo;
+			productName = MonashZoo;
+			productReference = 7CFDA70B212C179C00CEA37D /* MonashZoo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7CFDA721212C179F00CEA37D /* MonashZooTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CFDA739212C179F00CEA37D /* Build configuration list for PBXNativeTarget "MonashZooTests" */;
+			buildPhases = (
+				7CFDA71E212C179F00CEA37D /* Sources */,
+				7CFDA71F212C179F00CEA37D /* Frameworks */,
+				7CFDA720212C179F00CEA37D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CFDA724212C179F00CEA37D /* PBXTargetDependency */,
+			);
+			name = MonashZooTests;
+			productName = MonashZooTests;
+			productReference = 7CFDA722212C179F00CEA37D /* MonashZooTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7CFDA72C212C179F00CEA37D /* MonashZooUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CFDA73C212C179F00CEA37D /* Build configuration list for PBXNativeTarget "MonashZooUITests" */;
+			buildPhases = (
+				7CFDA729212C179F00CEA37D /* Sources */,
+				7CFDA72A212C179F00CEA37D /* Frameworks */,
+				7CFDA72B212C179F00CEA37D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CFDA72F212C179F00CEA37D /* PBXTargetDependency */,
+			);
+			name = MonashZooUITests;
+			productName = MonashZooUITests;
+			productReference = 7CFDA72D212C179F00CEA37D /* MonashZooUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CFDA703212C179C00CEA37D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Qianyi Huang";
+				TargetAttributes = {
+					7CFDA70A212C179C00CEA37D = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					7CFDA721212C179F00CEA37D = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 7CFDA70A212C179C00CEA37D;
+					};
+					7CFDA72C212C179F00CEA37D = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 7CFDA70A212C179C00CEA37D;
+					};
+				};
+			};
+			buildConfigurationList = 7CFDA706212C179C00CEA37D /* Build configuration list for PBXProject "MonashZoo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7CFDA702212C179C00CEA37D;
+			productRefGroup = 7CFDA70C212C179C00CEA37D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CFDA70A212C179C00CEA37D /* MonashZoo */,
+				7CFDA721212C179F00CEA37D /* MonashZooTests */,
+				7CFDA72C212C179F00CEA37D /* MonashZooUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CFDA709212C179C00CEA37D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CFDA71C212C179E00CEA37D /* LaunchScreen.storyboard in Resources */,
+				7CFDA719212C179E00CEA37D /* Assets.xcassets in Resources */,
+				7CFDA714212C179C00CEA37D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CFDA720212C179F00CEA37D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CFDA72B212C179F00CEA37D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CFDA707212C179C00CEA37D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CFDA711212C179C00CEA37D /* ViewController.swift in Sources */,
+				7CFDA717212C179C00CEA37D /* MonashZoo.xcdatamodeld in Sources */,
+				7CFDA70F212C179C00CEA37D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CFDA71E212C179F00CEA37D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CFDA727212C179F00CEA37D /* MonashZooTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CFDA729212C179F00CEA37D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CFDA732212C179F00CEA37D /* MonashZooUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7CFDA724212C179F00CEA37D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CFDA70A212C179C00CEA37D /* MonashZoo */;
+			targetProxy = 7CFDA723212C179F00CEA37D /* PBXContainerItemProxy */;
+		};
+		7CFDA72F212C179F00CEA37D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CFDA70A212C179C00CEA37D /* MonashZoo */;
+			targetProxy = 7CFDA72E212C179F00CEA37D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7CFDA712212C179C00CEA37D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CFDA713212C179C00CEA37D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7CFDA71A212C179E00CEA37D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CFDA71B212C179E00CEA37D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7CFDA734212C179F00CEA37D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7CFDA735212C179F00CEA37D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CFDA737212C179F00CEA37D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 89X47HG8NY;
+				INFOPLIST_FILE = MonashZoo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Monash.MonashZoo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7CFDA738212C179F00CEA37D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 89X47HG8NY;
+				INFOPLIST_FILE = MonashZoo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Monash.MonashZoo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7CFDA73A212C179F00CEA37D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 89X47HG8NY;
+				INFOPLIST_FILE = MonashZooTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Monash.MonashZooTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MonashZoo.app/MonashZoo";
+			};
+			name = Debug;
+		};
+		7CFDA73B212C179F00CEA37D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 89X47HG8NY;
+				INFOPLIST_FILE = MonashZooTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Monash.MonashZooTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MonashZoo.app/MonashZoo";
+			};
+			name = Release;
+		};
+		7CFDA73D212C179F00CEA37D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 89X47HG8NY;
+				INFOPLIST_FILE = MonashZooUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Monash.MonashZooUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MonashZoo;
+			};
+			name = Debug;
+		};
+		7CFDA73E212C179F00CEA37D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 89X47HG8NY;
+				INFOPLIST_FILE = MonashZooUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Monash.MonashZooUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MonashZoo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CFDA706212C179C00CEA37D /* Build configuration list for PBXProject "MonashZoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CFDA734212C179F00CEA37D /* Debug */,
+				7CFDA735212C179F00CEA37D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CFDA736212C179F00CEA37D /* Build configuration list for PBXNativeTarget "MonashZoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CFDA737212C179F00CEA37D /* Debug */,
+				7CFDA738212C179F00CEA37D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CFDA739212C179F00CEA37D /* Build configuration list for PBXNativeTarget "MonashZooTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CFDA73A212C179F00CEA37D /* Debug */,
+				7CFDA73B212C179F00CEA37D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CFDA73C212C179F00CEA37D /* Build configuration list for PBXNativeTarget "MonashZooUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CFDA73D212C179F00CEA37D /* Debug */,
+				7CFDA73E212C179F00CEA37D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7CFDA715212C179C00CEA37D /* MonashZoo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7CFDA716212C179C00CEA37D /* MonashZoo.xcdatamodel */,
+			);
+			currentVersion = 7CFDA716212C179C00CEA37D /* MonashZoo.xcdatamodel */;
+			path = MonashZoo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7CFDA703212C179C00CEA37D /* Project object */;
+}
